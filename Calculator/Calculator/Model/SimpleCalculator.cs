@@ -10,6 +10,7 @@ namespace Calculator.ViewModels
         {
             double result = 0;
 
+            //Operadores 
             switch (mathOperator)
             {
                 case "÷":
@@ -25,7 +26,6 @@ namespace Calculator.ViewModels
                     result = value1 - value2;
                     break;
             }
-
             return result;
         }
     }
