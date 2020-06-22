@@ -11,6 +11,7 @@ namespace Calculator
             InitializeComponent();
 
             //MainPage = new MainPage();
+
             MainPage = new Calculator.Views.Calculator();
         }
 
