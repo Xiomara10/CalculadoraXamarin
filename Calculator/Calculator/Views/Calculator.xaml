@@ -13,6 +13,7 @@
         </OnPlatform>
     </ContentPage.Padding>
 
+    
     <Grid Padding="5,0" RowSpacing="1" ColumnSpacing="1" BackgroundColor="Black">
 
         <Grid.RowDefinitions>
@@ -31,6 +32,7 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
+        
         <Label x:Name="resultText" Text="{Binding Result}" FontSize="48" FontAttributes="Bold" BackgroundColor="Black"
               TextColor="White" HorizontalTextAlignment="End" VerticalTextAlignment="Center"
               LineBreakMode="NoWrap" Grid.ColumnSpan="4" />

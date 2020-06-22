@@ -8,9 +8,9 @@ namespace Calculator.ViewModels
     {
         public static double Calculate(double value1, double value2, string mathOperator)
         {
-            double result = 0;
-
-            //Operadores 
+            double result = 0;          
+            
+            // Operadores
             switch (mathOperator)
             {
                 case "÷":
